@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="absolute right-0 z-0">
+        <div className="hidden lg:block absolute right-0 z-0">
           <Image src="/Decore.png" alt="Decoração" width={550} height={550} />
         </div>
         {children}
